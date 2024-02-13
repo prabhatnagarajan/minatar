@@ -17,6 +17,8 @@ install_requires = [
 
 examples_requires = [
     'torch>=1.0.0',
+    'pfrl@git+https://github.com/prabhatnagarajan/pfrl@ewrl_experiments',
+    'gymnasium'
 ]
 
 entry_points = {
